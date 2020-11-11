@@ -11,7 +11,7 @@ class Paper {
     World.add(world, this.body);
   }
   fly(){
-    Matter.Body.applyForce(paper.body,paper.body.position,{x:110,y:-110})
+    Matter.Body.applyForce(paper.body,paper.body.position,{x:120,y:-120})
   }
   display(){
     var pos =this.body.position;
